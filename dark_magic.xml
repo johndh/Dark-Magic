@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="300"/>	
+		<resource name="stone" amount="400"/>
+		<resource name="energy" amount="15"/>		
+	</starting-resources>
+	<starting-units>
+		<unit name="incantation_shrine" amount="1"/>
+		<unit name="blood_fountain" amount="1"/>
+		<unit name="acolyte" amount="3"/>
+		<unit name="sorceress" amount="1"/>
+		<unit name="morlock" amount="1"/>
+		<unit name="earth_serpent" amount="1"/>
+		<unit name="shade" amount="0"/>
+		<unit name="shadow_walker" amount="0"/>
+		<unit name="enchantment_tower" amount="0"/>
+		<unit name="oblivion_portal" amount="0"/>
+		<unit name="sorcery_runes" amount="0"/>
+	</starting-units>	
+	<music value="true" path="music/music_dark_magic.ogg"/>
+</faction>
