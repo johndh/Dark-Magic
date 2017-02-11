@@ -3,19 +3,20 @@
     	<texture value="true" path="images/particle.bmp" luminance="true"/>
     	<model value="false"/>
 	<primitive value="quad"/>
-	<offset x="0.0" y="-1.0" z="2.0"/>
-	<color red="0.4" green="0.9" blue="0.9" alpha="0.3" />
-	<color-no-energy red="0.3" green="0.9" blue="0.5" alpha="0.2" />
-    	<size value="0.75" />
+	<mode value="black"/>
+	<offset x="0.25" y="0.6" z=".5"/>
+	<color red="0.125" green="0.2" blue="0.2" alpha="0.95" />
+	<color-no-energy red="0.3" green="0.9" blue="0.5" alpha="0.1" />
+    	<size value="0.35" />
     	<size-no-energy value="0.1" />
     	<speed value="7.0" />
 	<gravity value="0.1"/>
-    	<emission-rate value="25" />
+    	<emission-rate value="10" />
     	<energy-max value="6" />
     	<energy-var value="3" />
 	
 	<trajectory type="parabolic">
 		<speed value="16.0"/>
-		<scale value="1"/>
+		<scale value="0.4"/>
 	</trajectory>
 </projectile-particle-system>
