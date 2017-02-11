@@ -19,6 +19,8 @@
 		<unit name="enchantment_tower" amount="0"/>
 		<unit name="oblivion_portal" amount="0"/>
 		<unit name="sorcery_runes" amount="0"/>
+		
+		<unit name="dark_mage" amount="3"/>
 	</starting-units>	
 	<music value="true" path="music/music_dark_magic.ogg"/>
 </faction>

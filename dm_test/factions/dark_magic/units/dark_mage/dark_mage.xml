@@ -13,8 +13,7 @@
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="3"/>
-			<level name="master" kills="7"/>
+			<level name="master" kills="5"/>
 			<level name="heroic" kills="12"/>
 		</levels>
 		<fields>
@@ -43,7 +42,7 @@
 			<name value="stop_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="1000"/>
-			<anim-speed value="40"/>
+			<anim-speed value="30"/>
 			<animation path="models/dark_mage_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -53,7 +52,7 @@
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="275"/>
-			<anim-speed value="110"/>
+			<anim-speed value="115"/>
 			<animation path="models/dark_mage_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -91,7 +90,7 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="120"/>
-			<anim-speed value="50"/>
+			<anim-speed value="40"/>
 			<animation path="models/dark_mage_death.g3d"/>
 			<sound enabled="false"/>
 			<fade value="false"/>
