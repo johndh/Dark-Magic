@@ -5,7 +5,7 @@
 	<primitive value="quad"/>
 	<offset x="0" y="0" z="0"/>
 	<color red="0.1" green="0.3" blue="1.0" alpha="0.6" />
-	<color-no-energy red="0.0" green="0.7" blue="0.3" alpha="0.7" />
+	<color-no-energy red="0.0" green="0.7" blue="0.7" alpha="0.7" />
     	<size value="1" />
     	<size-no-energy value="0.5" />
     	<speed value="1" />

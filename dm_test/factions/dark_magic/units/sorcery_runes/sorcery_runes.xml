@@ -70,9 +70,10 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/sorcery_runes.g3d" />			<particles value="true">
-				<particle-file path="particles1.xml"/>
-				<particle-file path="particles2.xml"/>					<particle-file path="smoke_particles.xml"/>				<particle-file path="smoke_particles2.xml"/>
+			<animation path="models/sorcery_runes.g3d" />
+			<particles value="true">
+				<particle-file path="particles_up.xml"/>
+				<particle-file path="particles_down.xml"/>
 			</particles>
 			<sound enabled="false" />
 		</skill>
@@ -83,9 +84,10 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/sorcery_runes.g3d" />			<particles value="true">
-				<particle-file path="particles1.xml"/>
-				<particle-file path="particles2.xml"/>					<particle-file path="smoke_particles.xml"/>				<particle-file path="smoke_particles2.xml"/>
+			<animation path="models/sorcery_runes.g3d" />
+			<particles value="true">
+				<particle-file path="fire_particles_up.xml"/>
+				<particle-file path="fire_particles_down.xml"/>
 			</particles>
 			<sound enabled="false" />
 		</skill>
