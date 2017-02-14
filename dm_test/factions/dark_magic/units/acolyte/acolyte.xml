@@ -253,7 +253,7 @@
 				<building name="oblivion_portal"/>
 				<building name="enchantment_tower"/>
 				<building name="incantation_shrine"/>
-				<building name="earth_serpent"/>
+				<building name="cursed_grave"/>
         <building name="gods_bane"/>
 			</buildings>
 			<start-sound enabled="false"/>
@@ -275,7 +275,7 @@
 				<unit name="oblivion_portal"/>
 				<unit name="enchantment_tower"/>
 				<unit name="incantation_shrine"/>	
-				<unit name="earth_serpent"/>
+				<unit name="cursed_grave"/>
 				<unit name="gods_bane"/>
 			</repaired-units>		
 		</command>

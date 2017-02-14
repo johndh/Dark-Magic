@@ -13,7 +13,7 @@
 	<effects>
     		<unit name="gargoyle"/>
     		<unit name="dark_mage"/>
-    		<unit name="earth_serpent"/>
+    		<unit name="cursed_grave"/>
 	</effects>
 	<max-hp value="50"/>
 	<max-ep value="100"/>

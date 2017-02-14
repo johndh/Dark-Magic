@@ -13,7 +13,7 @@
 		<unit name="acolyte" amount="3"/>
 		<unit name="sorceress" amount="1"/>
 		<unit name="morlock" amount="1"/>
-		<unit name="earth_serpent" amount="1"/>
+		<unit name="cursed_grave" amount="1"/>
 		<unit name="shade" amount="0"/>
 		<unit name="shadow_walker" amount="0"/>
 		<unit name="enchantment_tower" amount="0"/>
