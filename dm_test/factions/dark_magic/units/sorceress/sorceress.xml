@@ -175,12 +175,12 @@
 		
 		<command>
 			<type value="produce"/>
-			<name value="conjure_morlock" />
-			<image path="../morlock/images/morlock.bmp"/>
+			<name value="conjure_ghoul" />
+			<image path="../ghoul/images/morlock.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="conjure_skill"/>
-			<produced-unit name="morlock"/>
+			<produced-unit name="ghoul"/>
 		</command>
 
 		<command>
