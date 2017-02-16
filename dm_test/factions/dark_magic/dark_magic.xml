@@ -5,7 +5,7 @@
 		<resource name="gold" amount="500"/>
 		<resource name="wood" amount="300"/>	
 		<resource name="stone" amount="400"/>
-		<resource name="energy" amount="15"/>		
+		<resource name="souls" amount="15"/>		
 	</starting-resources>
 	<starting-units>
 		<unit name="incantation_shrine" amount="1"/>
