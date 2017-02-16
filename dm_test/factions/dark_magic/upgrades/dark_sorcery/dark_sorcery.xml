@@ -11,7 +11,7 @@
 		<resource name="stone" amount="300"/>
 	</resource-requirements>
 	<effects>
-		<unit name="sorceress"/>
+		<unit name="necromancer"/>
 	</effects>
 	<max-hp value="200"/>
 	<max-ep value="10"/>

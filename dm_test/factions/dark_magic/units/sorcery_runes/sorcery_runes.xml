@@ -109,12 +109,12 @@
 	<commands>
 		<command>
 			<type value="produce"/>
-			<name value="produce_sorceress"/>
-			<image path="../sorceress/images/sorceress.bmp" />
+			<name value="produce_necromancer"/>
+			<image path="../necromancer/images/necromancer.bmp" />
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="sorceress"/>
+			<produced-unit name="necromancer"/>
 		</command>
 
   <command>

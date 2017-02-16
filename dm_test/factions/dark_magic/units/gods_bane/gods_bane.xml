@@ -25,7 +25,7 @@
 		</properties>
 		<light enabled="false" />
 		<unit-requirements>
-			<unit name="sorceress"/>
+			<unit name="necromancer"/>
 		</unit-requirements>
 		<upgrade-requirements>
 			<upgrade name="magik"/>
