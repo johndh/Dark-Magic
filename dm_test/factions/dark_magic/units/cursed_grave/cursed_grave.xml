@@ -6,18 +6,18 @@
 		<height value="5"/>
 		<max-hp value="1500" regeneration="10"/>
 		<max-ep value="0"/>
-		<armor value="50"/>	
-		<armor-type value="organic"/>			
+		<armor value="50"/>
+		<armor-type value="organic"/>
 		<sight value="16"/>
-		<time value="140"/>	
-		<multi-selection value="false"/>
+		<time value="140"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="expert" kills="20"/>
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -27,8 +27,8 @@
 			<upgrade name="dark_sorcery"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="200"/>	
-			<resource name="souls" amount="3"/>			
+			<resource name="gold" amount="200"/>
+			<resource name="souls" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/earth_serpent.bmp"/>
@@ -43,17 +43,17 @@
 	<skills>
 		<skill>
 			<type value="be_built"/>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="40"/>
 			<animation path="models/gravestone.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="50"/>
@@ -63,7 +63,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="75"/>
 			<anim-speed value="60"/>
@@ -96,7 +96,7 @@
 
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="1"/>
 			<speed value="1"/>
 			<anim-speed value="10"/>
@@ -106,18 +106,18 @@
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
 			<animation path="models/gravestone_destruction.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../enchantment_tower/sounds/dark_magic_building_fall5.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 	</skills>
-	
+
 	<commands>
 		<command>
 			<type value="stop"/>
@@ -127,7 +127,7 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-		
+
 		<command>
 			<type value="attack"/>
 			<name value="attack"/>
