@@ -37,55 +37,55 @@
 		</selection-sounds>
 		<command-sounds enabled="false"/>
 	</parameters>
-
+	
 	<skills>
 		<skill>
-			<type value="stop"/>
+			<type value="stop"/>	
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="50" />
 			<anim-speed value="100" />
-			<animation path="models/portal.g3d" />
+			<animation path="models/oportal.g3d" />
 			<sound enabled="false" />
 		</skill>
-
+		
 		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>
+			<type value="be_built" />	
+			<name value="be_built_skill"/>		
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/portal_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
+		
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>
+			<name value="produce_skill"/>	
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/portal.g3d" />
+			<animation path="models/oportal.g3d" />
 			<particles value="true">
 				<particle-file path="produce_particles.xml"/>
 			</particles>
 			<sound enabled="false" />
-		</skill>
-
+		</skill>	
+		
 		<skill>
-			<type value="die" />
-			<name value="die_skill"/>
+			<type value="die" />	
+			<name value="die_skill"/>		
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/portal_destruction.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="../enchantment_tower/sounds/dark_magic_building_fall6.wav"/>
-			</sound>
+			</sound>			
 			<fade value="false"/>
 		</skill>
 	</skills>
-
+	
 	<commands>
 		<command>
 			<type value="produce"/>
@@ -106,7 +106,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="dark_elder"/>
 		</command>
-
+		
 		<command>
 			<type value="produce"/>
 			<name value="produce_gargoyle" />

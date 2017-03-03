@@ -99,32 +99,22 @@
 	<commands>
 		<command>
 			<type value="produce"/>
-			<name value="produce_5_energy" />
-			<image path="../5_energy/images/5_energy.bmp"/>
+			<name value="produce_lesser_soul_trap" />
+			<image path="../lesser_soul_trap/images/5_energy.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="5_energy"/>
+			<produced-unit name="lesser_soul_trap"/>
 		</command>
 
 		<command>
 			<type value="produce"/>
-			<name value="produce_10_energy" />
-			<image path="../10_energy/images/10_energy.bmp"/>
+			<name value="produce_greater_soul_trap" />
+			<image path="../greater_soul_trap/images/20_energy.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="10_energy"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="produce_20_energy" />
-			<image path="../20_energy/images/20_energy.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="20_energy"/>
+			<produced-unit name="greater_soul_trap"/>
 		</command>
 	</commands>
 </unit>
