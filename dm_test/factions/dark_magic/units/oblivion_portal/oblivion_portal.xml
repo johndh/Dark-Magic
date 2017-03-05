@@ -47,6 +47,11 @@
 			<anim-speed value="100" />
 			<animation path="models/oportal.g3d" />
 			<sound enabled="false" />
+			<particles value="true">
+				<particle-file path="fire_left.xml"/>
+				<particle-file path="glow_left.xml"/>
+				<particle-file path="fire_right.xml"/>
+			</particles>
 		</skill>
 		
 		<skill>
@@ -68,6 +73,9 @@
 			<animation path="models/oportal.g3d" />
 			<particles value="true">
 				<particle-file path="produce_particles.xml"/>
+				<particle-file path="fire_left.xml"/>
+				<particle-file path="glow_left.xml"/>
+				<particle-file path="fire_right.xml"/>
 			</particles>
 			<sound enabled="false" />
 		</skill>	

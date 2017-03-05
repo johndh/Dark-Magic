@@ -2,8 +2,8 @@
 
 <unit>
 	<parameters>
-		<size value="0"/>
-		<height value="1"/>
+		<size value="1"/>
+		<height value="2"/>
 		<max-hp value="800" regeneration="-1"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
@@ -40,7 +40,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="15"/>
-			<animation path="models/lesser_soul_trap.g3d"/>
+			<animation path="models/l_soul.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
 			</particles>
@@ -53,7 +53,7 @@
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="45"/>
-			<animation path="models/lesser_soul_trap.g3d"/>
+			<animation path="models/l_soul.g3d"/>
 			<sound enabled="false"/>		
 			<fade value="true"/>
 		</skill>
@@ -63,9 +63,10 @@
 			<ep-cost value="0"/>
 			<speed value="180"/>
 			<anim-speed value="100"/>
-			<animation path="models/lesser_soul_trap.g3d"/>
+			<animation path="models/l_soul.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
+				<particle-file path="trail.xml"/>
 			</particles>
 			<sound enabled="false"/>
 		</skill>

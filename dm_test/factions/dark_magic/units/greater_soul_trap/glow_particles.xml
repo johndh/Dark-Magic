@@ -2,21 +2,22 @@
 <unit-particle-system>
     	<texture value="true" path="../dark_mage/images/particle.bmp" luminance="true"/>
 	<primitive value="quad"/>
-	<offset x="0" y="0" z="0.0"/>
+	<offset x="0" y="1" z="0.0"/>
 	<direction x="0" y="0" z="0"/>
 	<color red="0.9" green="0.9" blue="0.9" alpha="0.3" />
 	<color-no-energy red="0.7" green="0.7" blue="0.7" alpha="0.3" />
-    	<radius value="0.001" />
-    	<size value="2" />
-    	<size-no-energy value="2" />
+    	<radius value="0.01" />
+    	<size value="4" />
+    	<size-no-energy value="3" />
     	<speed value="0.0" />
 	<gravity value="0"/>
     	<emission-rate value="5.01" />
-    	<energy-max value="2" />
+    	<energy-max value="20" />
     	<energy-var value="0" />
     	<fixed value="true" />
     	<relative value="true" />
-	<static-particle-count value="4" />
+	<static-particle-count value="2" />
+	<alternations value="1" />
     	<teamcolorNoEnergy value="true" />
     	<teamcolorEnergy value="true" />
 

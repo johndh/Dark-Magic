@@ -62,6 +62,7 @@
 			<animation path="models/blood_fountain_idle.g3d" />
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
+				<particle-file path="blood_particles_up.xml"/>
 				<particle-file path="boil_particles.xml"/>
 			</particles>
 			<sound enabled="false" />
@@ -76,7 +77,8 @@
 			<animation path="models/blood_fountain_wave.g3d"/>
 			<particles value="true">
 				<particle-file path="boil_produce_particles.xml"/>
-				<particle-file path="blood_particles_produce.xml"/>
+				<particle-file path="blood_particles_up.xml"/>
+				<particle-file path="blood_particles.xml"/>
 			</particles>
 			<sound enabled="false"/>
 		</skill>
