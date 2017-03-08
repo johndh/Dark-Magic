@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <projectile-particle-system>
-    	<texture value="true" path="../dark_mage/images/particle.bmp" luminance="true"/>
+    	<texture value="true" path="../corrupt_mage/images/particle.bmp" luminance="true"/>
     	<model value="true" path="models/bat.g3d"/>
 	<primitive value="quad"/>
 	<offset x="0" y="0" z="0"/>

@@ -26,7 +26,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/acolyte.bmp"/>
-		<image-cancel path="../dark_elder/images/dark_magic_cancel.bmp"/>
+		<image-cancel path="../lich/images/dark_magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
 		<command-sounds enabled="false"/>
@@ -188,7 +188,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../dark_elder/images/dark_magic_stop.bmp"/>
+			<image path="../lich/images/dark_magic_stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -197,7 +197,7 @@
 		<command>
 			<type value= "move"/>
 			<name value="move"/>
-			<image path="../dark_elder/images/dark_magic_move.bmp"/>
+			<image path="../lich/images/dark_magic_move.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -252,9 +252,9 @@
 				<building name="divination_crystal"/>
 				<building name="oblivion_portal"/>
 				<building name="enchantment_tower"/>
-				<building name="incantation_shrine"/>
+				<building name="malevolent_shrine"/>
 				<building name="cursed_grave"/>
-        <building name="gods_bane"/>
+        <building name="sheol_temple"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="false"/>
@@ -274,10 +274,21 @@
 				<unit name="divination_crystal"/>
 				<unit name="oblivion_portal"/>
 				<unit name="enchantment_tower"/>
-				<unit name="incantation_shrine"/>	
+				<unit name="malevolent_shrine"/>	
 				<unit name="cursed_grave"/>
-				<unit name="gods_bane"/>
+				<unit name="sheol_temple"/>
 			</repaired-units>		
+		</command>
+		
+		<command>
+			<type value="morph"/>
+			<name value="promote_to_corrupt_mage"/>
+			<image path="../corrupt_mage/images/corrupt_mage.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "corrupt_mage"/>
+			<discount value="0"/>
 		</command>
 	</commands>
 </unit>

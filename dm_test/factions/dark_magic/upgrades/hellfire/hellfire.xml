@@ -11,8 +11,8 @@
 		<resource name="stone" amount="200"/>
 	</resource-requirements>
 	<effects>
-    		<unit name="gargoyle"/>
-    		<unit name="dark_mage"/>
+    		<unit name="guardian_of_sheol"/>
+    		<unit name="corrupt_mage"/>
     		<unit name="cursed_grave"/>
 	</effects>
 	<max-hp value="50"/>

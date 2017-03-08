@@ -30,7 +30,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/shadow_walker.bmp"/>
-		<image-cancel path="../dark_elder/images/dark_magic_cancel.bmp"/>
+		<image-cancel path="../lich/images/dark_magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/shadow_walker_select1.wav"/>
@@ -146,7 +146,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../dark_elder/images/dark_magic_stop.bmp"/>
+			<image path="../lich/images/dark_magic_stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -155,7 +155,7 @@
 		<command>
 			<type value="move"/>
 			<name value="move"/>
-			<image path="../dark_elder/images/dark_magic_move.bmp"/>
+			<image path="../lich/images/dark_magic_move.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -174,7 +174,7 @@
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="../dark_elder/images/dark_magic_hold.bmp"/>
+			<image path="../lich/images/dark_magic_hold.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>

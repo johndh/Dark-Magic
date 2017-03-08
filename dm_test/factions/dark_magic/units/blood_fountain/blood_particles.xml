@@ -8,8 +8,8 @@
 	<color red="0.4" green="0.0" blue="0.0" alpha="1.0" />
 	<color-no-energy red="0.3" green="0.0" blue="0.0" alpha="1.0" />
     	<radius value="0.4" />
-    	<size value="0.1" />
-    	<size-no-energy value="0.2" />
+    	<size value="0.125" />
+    	<size-no-energy value="0.25" />
     	<speed value="1" />
 	<gravity value="0.2"/>
     	<emission-rate value="10" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <unit-particle-system>
-    	<texture value="true" path="../dark_mage/images/particle.bmp" luminance="true"/>
+    	<texture value="true" path="../corrupt_mage/images/particle.bmp" luminance="true"/>
 	<primitive value="quad"/>
 	<offset x="0" y="1" z="0.0"/>
 	<direction x="0" y="0" z="0"/>
