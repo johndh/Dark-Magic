@@ -16,7 +16,6 @@
 		<unit name="cursed_grave" amount="1"/>
 		<unit name="fallen_ranger" amount="0"/>
 		<unit name="shadow_walker" amount="0"/>
-		<unit name="enchantment_tower" amount="0"/>
 		<unit name="oblivion_portal" amount="0"/>
 		<unit name="sorcery_runes" amount="0"/>
 		<unit name="corrupt_mage" amount="1"/>

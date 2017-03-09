@@ -42,10 +42,10 @@
 		<image-cancel path="../lich/images/dark_magic_cancel.bmp"/>
 		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav"/>
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav"/>
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -97,7 +97,7 @@
 			<anim-speed value="300" />
 			<animation path="models/sheol_temple_destruction.g3d" />
 			<sound enabled="true" start-time="0">
-				<sound-file path="../enchantment_tower/sounds/dark_magic_building_fall2.wav"/>
+				<sound-file path="../blood_fountain/sounds/dark_magic_building_fall2.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

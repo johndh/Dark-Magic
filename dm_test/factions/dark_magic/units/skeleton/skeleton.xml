@@ -4,16 +4,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="400" regeneration="1"/>
+		<max-hp value="250" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="10"/>	
+		<armor value="50"/>	
 		<armor-type value="metal"/>
 		<sight value="11"/>
 		<time value="80"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="terrible" kills="5"/>
+			<level name="spooky" kills="4"/>
+			<level name="spooky_scary" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>

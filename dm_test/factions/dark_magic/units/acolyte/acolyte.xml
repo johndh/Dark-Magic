@@ -251,10 +251,9 @@
 				<building name="sorcery_runes"/>
 				<building name="divination_crystal"/>
 				<building name="oblivion_portal"/>
-				<building name="enchantment_tower"/>
 				<building name="malevolent_shrine"/>
 				<building name="cursed_grave"/>
-        <building name="sheol_temple"/>
+				<building name="sheol_temple"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="false"/>
@@ -273,7 +272,6 @@
 				<unit name="sorcery_runes"/>
 				<unit name="divination_crystal"/>
 				<unit name="oblivion_portal"/>
-				<unit name="enchantment_tower"/>
 				<unit name="malevolent_shrine"/>	
 				<unit name="cursed_grave"/>
 				<unit name="sheol_temple"/>

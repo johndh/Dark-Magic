@@ -24,8 +24,7 @@
 			<unit name="oblivion_portal"/>
 		</unit-requirements> 
 		<upgrade-requirements>
-			<upgrade name="dark_sorcery"/>
-			<upgrade name="aeromancy"/>
+			<upgrade name="swarm"/>
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="200"/>

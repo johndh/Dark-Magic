@@ -36,10 +36,10 @@
 		<image-cancel path="../lich/images/dark_magic_cancel.bmp"/>
 		<meeting-point value="true" image-path="../malevolent_shrine/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav"/>
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav"/>
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -100,7 +100,7 @@
 			<anim-speed value="300" />
 			<animation path="models/sorcery_runes_destruction.g3d" />
 			<sound enabled="true" start-time="0">
-				<sound-file path="../enchantment_tower/sounds/dark_magic_building_fall5.wav"/>
+				<sound-file path="../blood_fountain/sounds/dark_magic_building_fall5.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>
@@ -129,12 +129,12 @@
 
 		<command>
 			<type value="upgrade"/>
-			<name value="research_dark_sorcery" />
-			<image path="../../upgrades/dark_sorcery/images/dark_sorcery.bmp" />
+			<name value="research_soul_binding" />
+			<image path="../../upgrades/soul_binding/images/aeromancy.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="dark_sorcery"/>
+			<produced-upgrade name="soul_binding"/>
 		</command>
 	</commands>
 </unit>

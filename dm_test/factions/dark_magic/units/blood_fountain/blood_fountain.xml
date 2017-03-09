@@ -34,10 +34,10 @@
 		<image-cancel path="../lich/images/dark_magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav"/>
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav"/>
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -82,6 +82,21 @@
 			</particles>
 			<sound enabled="false"/>
 		</skill>
+		
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="75" />
+			<animation path="models/blood_fountain_idle.g3d" />
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+				<particle-file path="blood_particles_up.xml"/>
+				<particle-file path="boil_particles.xml"/>
+			</particles>
+			<sound enabled="false"/>
+		</skill>
 
 		<skill>
 			<type value="die" />
@@ -91,7 +106,7 @@
 			<anim-speed value="300" />
 			<animation path="models/destruction_blood_fountain.g3d" />
 			<sound enabled="true" start-time="0">
-				<sound-file path="../enchantment_tower/sounds/dark_magic_building_fall1.wav"/>
+				<sound-file path="../blood_fountain/sounds/dark_magic_building_fall1.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>
@@ -117,6 +132,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="greater_soul_trap"/>
+		</command>
+		
+		<command>
+			<type value="upgrade"/>
+			<name value="research_corruption"/>
+			<image path="../../upgrades/corruption/images/corruption.bmp" />
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="corruption"/>
 		</command>
 	</commands>
 </unit>

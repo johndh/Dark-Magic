@@ -31,10 +31,10 @@
 		<image-cancel path="../lich/images/dark_magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav" />
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav" />
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../enchantment_tower/sounds/dark_magic_click.wav" />
+			<sound path="../blood_fountain/sounds/dark_magic_click.wav" />
 		</command-sounds>
 	</parameters>
 
@@ -77,7 +77,7 @@
 			<anim-speed value="300" />
 			<animation path="models/destruction_divination_crystal.g3d" />
 			<sound enabled="true" start-time="0">
-				<sound-file path="../enchantment_tower/sounds/dark_magic_building_fall3.wav"/>
+				<sound-file path="../blood_fountain/sounds/dark_magic_building_fall3.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>
@@ -86,22 +86,22 @@
 	<commands>
 		<command>
 			<type value="upgrade"/>
-			<name value="research_aeromancy" />
-			<image path="../../upgrades/aeromancy/images/aeromancy.bmp" />
+			<name value="research_swarm" />
+			<image path="../../upgrades/swarm/images/magik.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="aeromancy"/>
+			<produced-upgrade name="swarm"/>
 		</command>
 
 		<command>
 			<type value="upgrade"/>
-			<name value="research_hellfire"/>
-			<image path="../../upgrades/hellfire/images/hellfire.bmp" />
+			<name value="research_manifestation"/>
+			<image path="../../upgrades/manifestation/images/dark_sorcery.bmp" />
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="hellfire"/>
+			<produced-upgrade name="manifestation"/>
 		</command>
 	</commands>
 </unit>
